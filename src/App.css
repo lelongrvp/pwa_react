@@ -1,4 +1,5 @@
-App.css
+@import url(https://fonts.googleapis.com/css?family=Righteous);
+
 html, body, #root {
     font: 0.9rem sans-serif;
     background: #0a1f44;
@@ -8,9 +9,16 @@ html, body, #root {
 }
 
 .main-container {
-    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.418) ), url('https://hdwallpaper20.com/wp-content/uploads/2017/07/wallpaper-wp4001752.jpg');
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.418) ), url('./images/bg.jpg');
     background-size: cover;
     background-position: center;
+}
+
+h1{
+    font-family: Righteous;
+    font-size: 50px;
+    font-weight: bold;
+    color: rgba(255, 255, 165, 1);
 }
 
 .main-container {
